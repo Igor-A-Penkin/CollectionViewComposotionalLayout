@@ -13,6 +13,7 @@
 		3AAD82E0255179BC00EF701D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AAD82DE255179BC00EF701D /* Main.storyboard */; };
 		3AAD82E2255179BC00EF701D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AAD82E1255179BC00EF701D /* Assets.xcassets */; };
 		3AAD82E5255179BC00EF701D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AAD82E3255179BC00EF701D /* LaunchScreen.storyboard */; };
+		3AAD82EF2551897B00EF701D /* CompositionalCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AAD82EE2551897B00EF701D /* CompositionalCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		3AAD82E1255179BC00EF701D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3AAD82E4255179BC00EF701D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3AAD82E6255179BC00EF701D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AAD82EE2551897B00EF701D /* CompositionalCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositionalCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		3AAD82D7255179BC00EF701D /* CollectionViewComposotionalLayout */ = {
 			isa = PBXGroup;
 			children = (
+				3AAD82EE2551897B00EF701D /* CompositionalCollectionViewCell.swift */,
 				3AAD82D8255179BC00EF701D /* AppDelegate.swift */,
 				3AAD82DA255179BC00EF701D /* SceneDelegate.swift */,
 				3AAD82DC255179BC00EF701D /* ViewController.swift */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AAD82EF2551897B00EF701D /* CompositionalCollectionViewCell.swift in Sources */,
 				3AAD82DD255179BC00EF701D /* ViewController.swift in Sources */,
 				3AAD82D9255179BC00EF701D /* AppDelegate.swift in Sources */,
 				3AAD82DB255179BC00EF701D /* SceneDelegate.swift in Sources */,
